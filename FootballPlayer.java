@@ -1,7 +1,7 @@
 abstract class FootballPlayer {
     private String name;
     private int goals;
-    private double monthlySalary; // Encapsulated (Confidential)
+    private double monthlySalary; 
 
     public FootballPlayer(String name, int goals, double monthlySalary) {
         this.name = name;
@@ -12,7 +12,7 @@ abstract class FootballPlayer {
     // Abstract method to be implemented by subclasses
     public abstract double calculateGoalRate();
 
-    // Getters for display purposes
+   
     public String getName() { return name; }
     public int getGoals() { return goals; }
 }
